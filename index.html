@@ -9,13 +9,26 @@
 <body>
     <div class="container">
     <h1>Question Area</h1>
-    <h3><span>Question1:  </span>Full form of html is?</h3>
-     <button>Cascading styling sheet</button>
-     <button>High markup language</button>
-     <button>Hypertext markup language</button>
-     <button>None of the above</button>
-     <button>Next Question</button>
+    <h3 id="answers"><span>Question1:</span>Full form of html is?</h3>
+     <button onclick="checkAnswer(this, 'Hypertext markup language')">Cascading styling sheet</button>
+     <button onclick="checkAnswer(this, 'Hypertext markup language')">High markup language</button>
+     <button onclick="checkAnswer(this, 'Hypertext markup language')">Hypertext markup language</button>
+     <button onclick="checkAnswer(this, 'Hypertext markup language')">None of the above</button>
+     <button id="next-question" onclick="nextQuestion()">Next Question</button>
+
 </div>
+
+    <div class="container">
+   <h1></h1>
+    <h3 id="answers"><span>Question2:</span>Full form of CSS is?</h3>
+     <button onclick="checkAnswer(this, 'Cascading styling sheet')">Cascading styling sheet</button>
+     <button onclick="checkAnswer(this, 'Cascading styling sheet')">Computer Style Sheets</button>
+     <button onclick="checkAnswer(this, 'Cascading styling sheet')">Hypertext markup language</button>
+     <button onclick="checkAnswer(this, 'Cascading styling sheet')">Colorful Style Sheets</button>
+     <button>Next Question</button>
+    
+</div>
+ 
 <script src="./index.js"></script>
 </body>
 </html>
