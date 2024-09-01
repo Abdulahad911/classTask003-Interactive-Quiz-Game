@@ -1,3 +1,72 @@
-body{
-   
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #717171;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 0 0;
+    background-color: yellow;
+    width: 400px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 1px 5px 5px black;
+}
+
+.container button {
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    border-radius: 7px;
+    margin-top: 10px;
+    color: white;
+    box-shadow: 1px 1px 2px gray;
+}
+
+.container span {
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container :nth-child(3) {
+    background-color: orangered;
+
+    font-size: large;
+}
+
+.container :nth-child(4) {
+    background-color: rgb(93, 188, 220);
+
+    font-size: large;
+}
+
+.container :nth-child(5) {
+    background-color: orange;
+
+    font-size: large;
+}
+
+.container :nth-child(6) {
+    background-color: blue;
+
+    font-size: large;
+}
+
+.container :nth-child(7) {
+    background-color: black;
+    width: 150px;
+    font-size: large;
+}
+.container button:hover{
+    background-color: rgb(15, 228, 15);
+    color: black;
 }
