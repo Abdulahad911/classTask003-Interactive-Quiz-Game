@@ -35,10 +35,7 @@ body {
     transition: transform 0.4s ease-in 0.09s;
 }
 
-.container span {
-    font-size: 23px;
-    font-family: 'Courier New', Courier, monospace;
-}
+
 
 .container :nth-child(3) {
     background-color: orangered;
