@@ -60,20 +60,8 @@ body {
     font-size: large;
 }
 
-.container :nth-child(7) {
-    background-color: black;
-    width: 150px;
-    font-size: large;
-    margin-bottom: 10px;
-}
-.container button:hover{
+.container button:hover {
     background-color: rgb(15, 228, 15);
     color: black;
     transform: scale(1.1);
 }
-.container p{
-    font-size: x-large;
-    /* color: black;
-    background-color: #fff; */
-}
-
