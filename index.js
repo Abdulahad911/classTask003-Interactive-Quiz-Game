@@ -103,8 +103,8 @@ function checkAnswer(button, correctAnswer) {
     if (selectedAnswer === correctAnswer) {
         marks += 2;
         correct += 1;
-        alert(`Correct! You have got ${marks} marks`);
-        alert(`you got corterct answer ${correct}/10 and incorrect ${inc}`)
+        alert(`Correct! You have got ${marks}/20 marks`);
+        alert(`you got correct answer ${correct}/10 and incorrect ${inc}`)
         button.style.backgroundColor = '#d4edda';
 
     } else {
